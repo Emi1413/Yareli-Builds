@@ -1,0 +1,237 @@
+<!-- ============================= What I did (except for the bubbles div) =============================  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yareli Builds</title>
+
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bubbles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <header>
+        <img src="./images/Header.png">
+        <h1>Yareli Builds</h1>
+        <nav>
+            <a href="#loyal">Loyal</a>
+            <a href="#evade">Evade</a>
+            <a href="#guardian">Guardian</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article id="loyal">
+                <header>
+                    
+                    <div class="build-img">
+                        <img src="./images/Builds/Loyal.PNG">
+                    </div>
+                </header>
+                <p>
+                    This the most basic Yareli build i have and the one i use the most. 
+                    This build is a very good all rounder providing VERY good survivability, decent damage and a somewhat
+                    decent range for the forth ability.
+                </p>
+
+                <p>
+                    There is nothing crazy really just some basic mods like:
+                </p>
+                <ul>
+                    <li>
+                        Arcane Energize - Archon Flow - Equilibrium for Energy sustain
+                    </li>
+                    <li>
+                        Summoner's Wrath - Power Drift - Blinding Rage - Archon intensify - Surging Blades for Strenght for Strenght and damage
+                    </li>
+                    <li>
+                        Loyal Merulina - Augur Accord - Arcane Aegis for survivability
+                    </li>
+                    <li>
+                        Finally Augur reach as a flexible slot for whatever you need or prefer (in this case: Range)
+                    </li>
+                </ul>
+
+                <p>
+                    We also have Koumei's subsume for an added layer of survivability on top of what we already have for a
+                    chance to ignore incoming damage and getting a heal instead, activating archon intensify. 
+                    <br>
+                    <br>
+                    Loyal Merulina as you probably already know makes so we summon Merulina as a minion instead of as a mount making movement
+                    a lot easier while allowing us to subsume our frist ability (because Merulina shoots bubbles that work
+                    exactly like our 1) while at the same time allowing us to run "Summoner's Wrath" to buff Merulina's damage. Then we have
+                    Aegis that help us keep our shields up, and, that's pretty much it, a very simple and easy build that we can use for pretty much any mission type.
+                </p>
+            </article>
+
+            <article id="evade">
+                <header>
+                    
+                    <div class="build-img">
+                        <img src="./images/Builds/Evade.PNG">
+                    </div>
+                </header>
+                <p>
+                    This build is built around Cyte's "Evade" subsume, it makes so we can go invisible every 60 or so seconds
+                    for an x amount of time, but, we can extend this by getting headshot kills. As you probably guessed we are building for
+                    Duration rather than Strenght because "Evade" scales with Duration, extending the initial duration of this ability.
+                </p>
+
+                <p>
+                    This build uses the last one as a base so we use similar mods
+                    only replacing some Strenght mods for Duration mods and replacing Aegis with Arcane Crepuscular for a little Strenght boost when invis.
+                    <br>
+                    <br>
+                    As you can see we are using "Loyal Merulina" here too, but, you can use "Guardian Merulina" or another
+                    random mod if you want to, this is just quality of life.
+                </p>
+            </article>
+
+            <article id="guardian">
+                <header>
+                  
+                    <div class="build-img">
+                        <img src="./images/Builds/Guardian.PNG">
+                    </div>
+                </header>
+                <p>
+                    For the last build we have a Guardian or a "weapon platform build". Here we use "Merulina Guardian" instead of "Loyal Merulina"
+                    because Guardian buff Merulina and our secondary giving it more fire rate, reloading speed and healing merulina with each kill.
+                    As you can see this build is almost identical to the frist one only replacing Loyal with Guardian and Aegis with Velocity (this arcane buffs our secondary
+                    stacking with Guardian's buffs).
+                    <br>
+                    <br>
+                    To make this build even stronger we need to subsume our 4 ability with Sevagoths's Gloom making Merulina nearly
+                    unkillable as long as we are getting kills of course.
+                </p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>The weapons i use and some builds for them:</h2>
+            <ul>
+                <li><a href="https://overframe.gg/items/arsenal/1228/latron-prime/" target="_blank" rel="noopener noreferrer">Latron Prime incarnon</a></li>
+                <li><a href="https://overframe.gg/items/arsenal/7392/kompressa-prime/" target="_blank" rel="noopener noreferrer">Kompressa Prime</a></li>
+                <li><a href="https://overframe.gg/items/arsenal/7327/coda-caustacyst/" target="_blank" rel="noopener noreferrer">Coda Caustacyst</a></li>
+                <li><a href="https://overframe.gg/items/arsenal/1193/furis/" target="_blank" rel="noopener noreferrer">Furis incarnon</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Thank you for checking out my builds</p>
+        <p style="font-size: 0.8rem; opacity: 0.6;">
+            UI styling assisted by Echo ✨
+         </p>
+    </footer>
+
+    <!-- ============================= What Echo added =============================  -->
+    
+    <script>
+
+document.addEventListener("click", function(e) {
+    const ripple = document.createElement("span");
+    ripple.classList.add("ripple");
+
+    ripple.style.left = e.clientX + "px";
+    ripple.style.top = e.clientY + "px";
+
+    document.body.appendChild(ripple);
+
+    setTimeout(() => {
+        ripple.remove();
+    }, 600);
+});
+
+console.log("Script loaded");
+
+window.onload = function () {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImg");
+    const closeBtn = document.getElementById("closeModal");
+
+    const images = document.querySelectorAll("article img");
+
+    console.log("Images found:", images.length);
+
+    images.forEach(img => {
+        img.onclick = function () {
+            console.log("Image clicked!");
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        };
+    });
+
+    closeBtn.onclick = function () {
+        modal.style.display = "none";
+    };
+
+    modal.onclick = function (e) {
+        if (e.target !== modalImg) {
+            modal.style.display = "none";
+        }
+    };
+};
+</script>
+
+<div id="imageModal">
+    <span id="closeModal">&times;</span>
+    <img id="modalImg">
+</div>
+
+<script>
+const bubbleContainer = document.querySelector('.bubbles');
+
+function createBubble() {
+    const bubble = document.createElement('span');
+
+    // Random size
+    const size = Math.random() * 25 + 10;
+    bubble.style.width = size + 'px';
+    bubble.style.height = size + 'px';
+
+    // Random horizontal position
+    bubble.style.left = Math.random() * 100 + '%';
+
+    // Random animation duration
+    const duration = Math.random() * 8 + 6;
+    bubble.style.animationDuration = duration + 's';
+
+    // Random opacity
+    bubble.style.opacity = Math.random() * 0.5 + 0.2;
+
+    bubbleContainer.appendChild(bubble);
+
+    // Remove after animation
+    setTimeout(() => {
+        bubble.remove();
+    }, duration * 1000);
+}
+
+// Spawn bubbles continuously
+setInterval(createBubble, 400);
+</script>
+
+<!-- =========================================================================== -->
+
+</body>
+</html>
